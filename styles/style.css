@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.btn-primary{
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 36px;
+    height: 64px;
+    border-radius: 5px;
+    background: #ffffff;
+}
+/* banner section styles */
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 600px;
+}
+.banner-info{
+    color: #ffff;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    margin: 150px 230px 166px 845px;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.section-description{
+    font-weight: 50;
+    font-size: 16px;
+    margin-bottom: 28px;
+}
+/* my failures section styles */
+.my-failures{
+    display: flex;
+    margin: 131px 322px 129px 206px;
+    gap: 88px;
+}
+.my-failure-info{
+    text-align: left;
+}
+.my-failure-info .section-title{
+    margin-top: 239px;
+}
+.check-list p{
+    margin-bottom: 8px;
+}
+.check-list span{
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+}
+.check-list i{
+    padding: 1px 10px 1px 0px;
+    color: #16D887;
+}
+/* My plans section styles */
+.my-plan .section-title{
+    text-align: center;
+}
+.plan-container{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 230px 130px;
+    
+}
+.plan-title{
+    font-size: 28px;
+}
+.plan-description{
+    font-size: 20px;
+    color: #737272;
+}
+/* second-banner section styles */
+.second-banner{
+    position: relative;
+    margin: 100px 230px;
+}
+.second-banner img{
+    top: 0;
+    position: absolute;
+}
+.second-banner-container{
+    top: 0;
+    position: absolute;
+    margin-left: 64px;
+    margin-top: 59px;
+    margin-right: 619px;
+}
+.second-banner-title{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+}
+.second-banner .btn-primary{
+    margin-top: 24px;
+}
+/* contact section styles */
+.contact{
+    color: #ffffff;
+    display: flex;
+    background-color: black;
+    gap: 100px;
+    padding: 130px 230px;
+    margin-top: 550px;
+    
+}
+.contact .section-title{
+    text-align: left;
+    
+}
+.contact .section-title span{
+    font-size: 25px;
+}
+.contact input[type="email"]{
+    font-size: 18px;
+    margin-bottom: 24px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 100%;
+    padding: 18px 30px;
+    background-color: black;
+    color: #ffffff;
+}
+.contact p{
+    text-align: justify;
+    margin-right: 331px;
+}
+.contact .email{
+    font-weight: 70;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.contact .phone{
+    font-weight: 70;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.contact a{
+    text-decoration: none;
+    margin-right: 17px;
+}
+input{
+    height: 20px;
+}
+.contact .btn-primary{
+    color: white;
+    background-color: #005FAC;
+}
